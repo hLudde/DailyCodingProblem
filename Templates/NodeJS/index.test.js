@@ -1,5 +1,4 @@
-const { TestScheduler } = require("jest");
-const helloWorld = require("./index").default;
+const helloWorld = require("./index");
 
 test('return Hello World!', ()=>{
     expect(helloWorld()).toBe("Hello World!");
